@@ -7,7 +7,7 @@ import Project from '../Project/Project';
 
 const Portfolio = () => {
     const [projects, setProjects] = useProjects()
-    console.log(projects)
+
     return (
         <>
             <section id="portfolio" class="portfolio section-bg">

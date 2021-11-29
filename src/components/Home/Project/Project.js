@@ -1,7 +1,13 @@
 import React from 'react';
-
+import { Link, useHistory } from 'react-router-dom';
+import { Icon } from '@iconify/react';
 const Project = (props) => {
+    const history = useHistory()
     const { _id, name, picture1, about } = props.project;
+    const handelButton = () => {
+        history.push(`/projects/${_id}`)
+    }
+
     return (
         <>
 
@@ -9,8 +15,8 @@ const Project = (props) => {
                 <div class="portfolio-wrap">
                     <img src={picture1} class="img-fluid" alt="" />
                     <div class="portfolio-links">
-                        <a href={"picture1"} data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                        <Link to={`/projects/${_id}`}> <a title="More Details"><Icon icon="akar-icons:link-chain" /></a></Link>
+
                     </div>
                 </div>
             </div>
