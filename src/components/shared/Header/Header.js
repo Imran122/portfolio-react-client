@@ -2,6 +2,8 @@ import React from 'react';
 import img from '../../../images/profile-img.jpg'
 import { Icon } from '@iconify/react';
 import './Header.css'
+import { Button } from 'react-bootstrap';
+import Pdf from '../../../resume/IMRAN HOSSAIN.pdf';
 const Header = () => {
 
 
@@ -16,7 +18,7 @@ const Header = () => {
 
                     <div class="profile">
                         <img src={img} alt="" class="img-fluid rounded-circle" />
-                        <h1 class="text-light"><a href="index.html">Alex Smith</a></h1>
+                        <h1 class="text-light"><a href="index.html">IMRAN HOSSAIN</a></h1>
                         <div class="social-links mt-3 text-center">
                             <a href="#" class="twitter"><Icon icon="bx:bxl-twitter" /></a>
                             <a href="#" class="facebook"><Icon icon="bi:facebook" /></a>
@@ -34,6 +36,13 @@ const Header = () => {
                             <li><a href="#portfolio" class="nav-link scrollto"><Icon style={{ width: '40px' }} icon="bx:bxs-book-content" /><span>Portfolio</span></a></li>
 
                             <li><a href="#contact" class="nav-link scrollto"><Icon style={{ width: '40px' }} icon="fluent:chat-mail-20-filled" /><span>Contact</span></a></li>
+                            <li className="w-10 h-5">
+                                <a href={Pdf} without rel="noopener noreferrer" target="_blank" >
+                                    <Button variant="outline-light" trailingIcon="picture_as_pdf" label="Resume">
+                                        Open Resume
+                                    </Button>
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 </div>

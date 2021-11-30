@@ -5,7 +5,7 @@ const useProjects = () => {
     const [projects, setProjects] = useState([])
     //fetch data from fajedb json file
     useEffect(() => {
-        fetch('http://myreactportfoliosite2.herokuapp.com/projects')
+        fetch('https://myreactportfoliosite2.herokuapp.com/projects')
             .then(response => response.json())
             .then(data => setProjects(data))
     }, [])

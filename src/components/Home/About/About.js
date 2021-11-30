@@ -10,7 +10,10 @@ const About = () => {
 
                     <div class="section-title">
                         <h2>About</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <p> I am a professional full stack web developer.I am adaptable with a quick learner and having sound
+                            knowledge of Python and JavaScript programming language. possess of good knowledge in Node Js and Django web
+                            frameworks. Also expertise in front-end development technology with React Js and Bootstrap5, Tailwind CSS with various
+                            react tools. Proficient in handling various technical related queries and issues independently.</p>
                     </div>
 
                     <div class="row">
@@ -18,32 +21,36 @@ const About = () => {
                             <img src={img} class="img-fluid" alt="" />
                         </div>
                         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                            <h3>UI/UX Designer &amp; Web Developer.</h3>
+                            <h3>Full-Stack &amp; Web Developer.</h3>
                             <p class="fst-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                magna aliqua.
+                                My personal Information.
                             </p>
                             <div class="row">
                                 <div class="col-lg-6">
                                     <ul>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 sep 1996</span></li>
                                         <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+880 1682765544</span></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Dhaka, Bangladesh</span></li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-6">
                                     <ul>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>26</span></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor`s</span></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>mdimranhossain122@gmail.com</span></li>
                                         <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                                     </ul>
                                 </div>
                             </div>
                             <p>
-                                Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                                Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+                                Looking forward to an entry-level position to kickstart my career. I am adaptable with a
+                                quick learner and a highly hardworking individual searching for a position to gain
+                                industrial exposure in this field. Being a quick learner, I wish to develop a more rounded
+                                skill-set and wants to help further development of the organization. To work in a highly
+                                competitive environment with a perfect challenge by contributing the best for the growth
+                                of the organization while ensuring growth in a personal career will be a great opportunity
+                                for me.
                             </p>
                         </div>
                     </div>

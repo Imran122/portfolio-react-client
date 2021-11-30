@@ -1,5 +1,7 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import Pdf from '../../../resume/IMRAN HOSSAIN.pdf';
+
 import './Resume.css'
 const Resume = () => {
     return (
@@ -9,37 +11,45 @@ const Resume = () => {
 
                     <div class="section-title">
                         <div className="d-flex flex-row inline-flex">
-                            <h2>Resume</h2>
-                            <Button className="w-10 h-25 mx-4" variant="outline-dark"><a className="text-decoration-none" href="../../../resume/IMRAN HOSSAIN.pdf" download>Download</a></Button>
+
+
+                            <a href={Pdf} without rel="noopener noreferrer" target="_blank" >
+                                <Button className="w-100" variant="outline-dark" trailingIcon="picture_as_pdf" label="Resume">
+                                    RESUME
+                                </Button>
+                            </a>
                         </div>
                         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                     </div>
 
                     <div class="row">
                         <div class="col-lg-6" data-aos="fade-up">
-                            <h3 class="resume-title">Sumary</h3>
+                            <h3 class="resume-title">Summary</h3>
                             <div class="resume-item pb-0">
-                                <h4>Alex Smith</h4>
-                                <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+                                <h4>Imran Hossain</h4>
+                                <p><em>Looking forward to an entry-level position to kickstart my career. I am adaptable with a quick learner and having sound
+                                    knowledge of Python and JavaScript programming language. possess of good knowledge in Node Js and Django web
+                                    frameworks. Also expertise in front-end development technology with React Js and Bootstrap5, Tailwind CSS with various
+                                    react tools. Proficient in handling various technical related queries and issues independently.</em></p>
                                 <ul>
-                                    <li>Portland par 127,Orlando, FL</li>
-                                    <li>(123) 456-7891</li>
-                                    <li>alice.barkley@example.com</li>
+                                    <li>Adabor,dhaka,bangladesh</li>
+                                    <li>+880 1682765544</li>
+                                    <li>mdimranhossain122@gmail.com</li>
                                 </ul>
                             </div>
 
                             <h3 class="resume-title">Education</h3>
                             <div class="resume-item">
-                                <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                                <h5>2015 - 2016</h5>
-                                <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                                <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                                <h4>: Bachelor’s in Computer
+                                    Science &amp; engineering</h4>
+                                <h5>2015 - 2019</h5>
+                                <p><em>Daffodil International
+                                    University</em></p>
+                                <p>I have completed my bachelor degree from Daffodil International University and have done some research paper during my study period.</p>
                             </div>
                             <div class="resume-item">
-                                <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                                <h5>2010 - 2014</h5>
-                                <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                                <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+
+
                             </div>
                         </div>
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
@@ -49,13 +59,20 @@ const Resume = () => {
                                 <h5>2019 - Present</h5>
                                 <p><em>Experion, New York, NY </em></p>
                                 <ul>
-                                    <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                                    <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                                    <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                                    <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                                    <li> Have done some project by Django framework which is uploaded in
+                                        my GitHub profile.</li>
+                                    <li> Have worked in a research base project on image processing that can
+                                        detect pest and the conference organized by teerthanker mahaveer
+                                        university. Paper has published in IEEE Explore and RESEARCH
+                                        GATE.
+                                        IEEE Explore: http://tiny.cc/v28ysz
+                                        ResearchGate: http://tiny.cc/a38ysz </li>
+                                    <li> Experience on responsive web design & development project.</li>
+                                    <li> Experience on Node Js and React Js to build React component-based
+                                        website</li>
                                 </ul>
                             </div>
-                            <div class="resume-item">
+                            {/*     <div class="resume-item">
                                 <h4>Graphic design specialist</h4>
                                 <h5>2017 - 2018</h5>
                                 <p><em>Stepping Stone Advertising, New York, NY</em></p>
@@ -65,7 +82,7 @@ const Resume = () => {
                                     <li>Recommended and consulted with clients on the most appropriate graphic design</li>
                                     <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 

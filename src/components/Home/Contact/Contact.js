@@ -22,7 +22,7 @@ const Contact = () => {
 
                     <div class="section-title">
                         <h2>Contact</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <p></p>
                     </div>
 
                     <div class="row" data-aos="fade-in">
@@ -35,7 +35,7 @@ const Contact = () => {
                                     </i>
 
                                     <h4>Location:</h4>
-                                    <p>A108 Adam Street, New York, NY 535022</p>
+                                    <p>Adabor,mohammadpur,dhaka,Bnagladesh</p>
                                 </div>
 
                                 <div class="email">
@@ -43,7 +43,7 @@ const Contact = () => {
                                         <Icon icon="dashicons:email-alt" />
                                     </i>
                                     <h4>Email:</h4>
-                                    <p>info@example.com</p>
+                                    <p>mdimranhossain122@gmail.com</p>
                                 </div>
 
                                 <div class="phone">
@@ -51,7 +51,7 @@ const Contact = () => {
                                         <Icon icon="akar-icons:phone" />
                                     </i>
                                     <h4>Call:</h4>
-                                    <p>+1 5589 55488 55s</p>
+                                    <p>+880 1682765544</p>
                                 </div>
 
 
