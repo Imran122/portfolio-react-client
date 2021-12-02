@@ -177,8 +177,8 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
-  color: #fff;
+  background-color: #dde9ee;
+  color: rgb(20, 19, 19);
   width: 40px;
   height: 40px;
   display: inline-flex;

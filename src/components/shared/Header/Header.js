@@ -4,7 +4,27 @@ import { Icon } from '@iconify/react';
 import './Header.css'
 import { Button } from 'react-bootstrap';
 import Pdf from '../../../resume/IMRAN HOSSAIN.pdf';
+
 const Header = () => {
+
+    const select = (el, all = false) => {
+
+        if (all) {
+            return [...document.querySelectorAll(el)]
+        } else {
+            return document.querySelector(el)
+        }
+    }
+
+
+    const nabmobile = () => {
+        select('body').classList.toggle('mobile-nav-active')
+        let navbarToggle = select('.mobile-nav-toggle')
+        navbarToggle.classList.toggle('bi-list')
+        navbarToggle.classList.toggle('bi-x')
+    }
+
+
 
 
 
@@ -12,7 +32,10 @@ const Header = () => {
 
     return (
         <>
-            <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+            <buton id="menu-bars" onClick={nabmobile} class="mobile-nav-toggle d-xl-none">
+                <Icon className="bi-list" icon="bi:list" />
+            </buton>
+
             <header id="header">
                 <div class="d-flex flex-column">
 
@@ -29,11 +52,11 @@ const Header = () => {
                     </div>
 
                     <nav id="navbar" class="nav-menu navbar">
-                        <ul>
+                        <ul >
                             <li><a href="#hero" class="nav-link scrollto active"><Icon style={{ width: '40px' }} class="bx" icon="mdi:home" /><span>Home</span></a></li>
-                            <li><a href="#about" class="nav-link scrollto"><Icon style={{ width: '40px' }} class="bx" icon="mdi:user" /> <span>About</span></a></li>
+                            <li ><a href="#about" class="nav-link scrollto"><Icon style={{ width: '40px' }} class="bx" icon="mdi:user" /> <span>About</span></a></li>
                             <li><a href="#resume" class="nav-link scrollto"> <Icon style={{ width: '40px' }} class="bx" icon="mdi:file" /><span>Resume</span></a></li>
-                            <li><a href="#portfolio" class="nav-link scrollto"><Icon style={{ width: '40px' }} icon="bx:bxs-book-content" /><span>Portfolio</span></a></li>
+                            <li ><a href="#portfolio" class="nav-link scrollto"><Icon style={{ width: '40px' }} icon="bx:bxs-book-content" /><span>Portfolio</span></a></li>
 
                             <li><a href="#contact" class="nav-link scrollto"><Icon style={{ width: '40px' }} icon="fluent:chat-mail-20-filled" /><span>Contact</span></a></li>
                             <li className="w-10 h-5">
