@@ -1,0 +1,26 @@
+.button-class-main {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  right: 0;
+  margin: auto;
+}
+
+.service-card {
+  color: #fff;
+  text-decoration: none;
+}
+.service-card p {
+  text-align: center;
+  background-color: #00a01d !important;
+  border-radius: 20px;
+  text-transform: uppercase;
+  height: 30px;
+}
+.service-card p:hover {
+  text-align: center;
+
+  border-radius: 20px;
+  text-transform: uppercase;
+  height: 30px;
+}

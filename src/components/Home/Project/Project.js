@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { Icon } from '@iconify/react';
 import './Project.css'
+import { Button } from 'react-bootstrap';
 const Project = (props) => {
 
     const { _id, name, picture1, about } = props.project;
@@ -10,18 +11,17 @@ const Project = (props) => {
     return (
         <>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-wrap">
-                    <img src={picture1} class="img-fluid" alt="" />
-                    <div class="portfolio-links">
-                        <Link> <a href={picture1} data-gallery="portfolioGallery" class="portfolio-lightbox" title={name}><Icon icon="akar-icons:circle-plus" /></a></Link>
-
-                        <Link to={`/projects/${_id}`}> <a title="More Details"><Icon icon="akar-icons:link-chain" /></a></Link>
-
-                    </div>
+            <div class="col-md-4 col-sm-6 equal-height">
+                <div class="item">
+                    <img src={picture1} class="img-fluid" alt="" width="100%" height="100%" />
+                    <h4>{name}</h4>
                     <p> {about.split('').slice(0, 90).toString().replace(/,/g, '')}......</p>
+                    <div class="button-class-main">
+                        <Link to={`/projects/${_id}`} class="service-card"><p>DETAILS</p></Link>
+                    </div>
                 </div>
             </div>
+
         </>
     );
 };

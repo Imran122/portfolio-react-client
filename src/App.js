@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ProjectDetails from './components/Home/ProjectDetails/ProjectDetails';
 import Header from "./components/shared/Header/Header";
 import Footer from "./components/shared/Footer/Footer";
+import Blog from "./components/Blog/Blog";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route exact path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/blog">
+            <Blog></Blog>
           </Route>
           <Route exact path="/projects/:id">
             <ProjectDetails></ProjectDetails>
