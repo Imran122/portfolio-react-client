@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import Pdf from '../../../resume/IMRAN HOSSAIN.pdf';
-
+import { Icon } from '@iconify/react';
 import './Resume.css'
 const Resume = () => {
     return (
@@ -10,16 +10,17 @@ const Resume = () => {
                 <div class="container">
 
                     <div class="section-title">
-                        <div className="d-flex flex-row inline-flex">
+                        <div className=" d-flex flex-row inline-flex">
 
+                            <h2>Resume <Icon icon="grommet-icons:resume" width="35" height="35" /></h2>
 
                             <a href={Pdf} without rel="noopener noreferrer" target="_blank" >
-                                <Button className="w-100" variant="outline-dark" trailingIcon="picture_as_pdf" label="Resume">
+                                <Button className="resume-btn w-100" variant="outline-dark" trailingIcon="picture_as_pdf" label="Resume">
                                     RESUME
                                 </Button>
                             </a>
                         </div>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+
                     </div>
 
                     <div class="row">
@@ -55,9 +56,9 @@ const Resume = () => {
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                             <h3 class="resume-title">Professional Experience</h3>
                             <div class="resume-item">
-                                <h4>Senior graphic design specialist</h4>
+                                <h4>Freelencher</h4>
                                 <h5>2019 - Present</h5>
-                                <p><em>Experion, New York, NY </em></p>
+                                <p><em>Working onFiverr </em></p>
                                 <ul>
                                     <li> Have done some project by Django framework which is uploaded in
                                         my GitHub profile.</li>

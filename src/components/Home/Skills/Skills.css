@@ -27,3 +27,6 @@
   transition: 0.9s;
   background-color: #00a01d;
 }
+.progress-bar[aria - valuenow="0"] {
+  transition: none;
+}

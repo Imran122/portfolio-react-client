@@ -16,7 +16,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #00a01d;
 }
 .section-title h2::after {
   content: "";
@@ -38,7 +38,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #00a01d;
 }
 .about .content ul {
   list-style: none;
@@ -60,4 +60,9 @@ section {
 }
 .about .content p:last-child {
   margin-bottom: 0;
+}
+.about-img img {
+  border: 3px solid #00a01d;
+  border-radius: 7px;
+  box-shadow: 20px 20px 10px #b5b9b6;
 }
