@@ -33,20 +33,22 @@ const Portfolio = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div class="row our-offer-items less-carousel">
+                            <div class="container">
+                                <div class="row">
 
 
 
 
-                                {projects.map((project) => <Project
-                                    key={project._id}
-                                    project={project}
-                                >
+                                    {projects.map((project) => <Project
+                                        key={project._id}
+                                        project={project}
+                                    >
 
-                                </Project>
-                                )}
+                                    </Project>
+                                    )}
 
 
+                                </div>
                             </div>
                         </div>
                     </section>
