@@ -103,6 +103,9 @@
   text-decoration: none;
   color: #28a745;
 }
+.service-card:hover {
+  color: #080808;
+}
 .stats {
   color: #28a745;
 }

@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap';
 const Project = (props) => {
 
     const { _id, name, picture1, about, category, projectFinishDate } = props.project;
-
+    console.log(category)
 
     return (
         <>
@@ -15,7 +15,7 @@ const Project = (props) => {
 
 
 
-            <div class="col-md-4">
+            <div class="col-md-4" >
                 <div class="blog-card blog-card-blog">
                     <div class="blog-card-image">
                         <a href="#"> <img class="img" src={picture1} /> </a>

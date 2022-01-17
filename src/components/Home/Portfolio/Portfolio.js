@@ -1,13 +1,12 @@
 import React from 'react';
 import './Portfolio.css'
-import portfolio1 from '../../../images/portfolio/portfolio-1.jpg'
-import portfolio2 from '../../../images/portfolio/portfolio-2.jpg'
+
 import useProjects from '../../../hooks/useProjects';
 import Project from '../Project/Project';
 import { Icon } from '@iconify/react';
 const Portfolio = () => {
     const [projects, setProjects] = useProjects()
-    console.log(projects)
+
     return (
         <>
             <section id="portfolio" class="portfolio section-bg">
@@ -33,7 +32,7 @@ const Portfolio = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div class="container">
+                            <div class="container" >
                                 <div class="row">
 
 
