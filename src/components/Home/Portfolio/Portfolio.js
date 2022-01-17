@@ -1,11 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Portfolio.css'
 
 import useProjects from '../../../hooks/useProjects';
 import Project from '../Project/Project';
 import { Icon } from '@iconify/react';
+import { Button } from 'react-bootstrap';
+import { useEffect } from 'react';
 const Portfolio = () => {
     const [projects, setProjects] = useProjects()
+    const [items, setItems] = useState(projects)
+
+    const filterDjango = (categoryItem) => {
+        const updateItems = projects.filter((currentElement) => {
+            return currentElement.category === categoryItem
+        })
+        setItems(updateItems)
+    }
+    console.log('fgf', items)
+    console.log('projects', projects)
+
+
+    /*  let uniqueList = projects.filter(list => 'django' === list.category)
+     console.log(uniqueList) */
 
     return (
         <>
@@ -23,10 +39,11 @@ const Portfolio = () => {
                             <div class="row" data-aos="fade-up">
                                 <div class="col-lg-12 d-flex justify-content-center">
                                     <ul id="portfolio-flters">
-                                        <li data-filter="*" class="filter-active">All</li>
-                                        <li data-filter=".filter-app">Django& React</li>
-                                        <li data-filter=".filter-card">Node & React</li>
-                                        <li data-filter=".filter-card">Web Design</li>
+                                        <li data-filter=".filter-app" onClick={() => setItems(projects)} ><Button class="select-cat-btn">ALL</Button></li>
+                                        <li data-filter=".filter-app" onClick={() => filterDjango('django')} ><Button class="select-cat-btn">Django & React</Button></li>
+                                        <li data-filter=".filter-app" onClick={() => filterDjango('node')} ><Button class="select-cat-btn">Node & React</Button></li>
+
+
 
 
                                     </ul>
@@ -34,17 +51,27 @@ const Portfolio = () => {
                             </div>
                             <div class="container" >
                                 <div class="row">
+                                    {
+
+
+
+                                        items.map(project => <Project
+                                            key={project._id}
+                                            project={project}
+                                        >
+
+                                        </Project>
+                                        )
+
+                                    }
 
 
 
 
-                                    {projects.map((project) => <Project
-                                        key={project._id}
-                                        project={project}
-                                    >
 
-                                    </Project>
-                                    )}
+
+
+
 
 
                                 </div>

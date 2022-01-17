@@ -83,7 +83,16 @@
   opacity: 1;
   bottom: 0;
 }
-
+.btn-primary {
+  border: none !important;
+  background: none !important;
+  font-size: 18px;
+  font-weight: bold;
+  color: black !important;
+}
+.btn-primary:hover {
+  color: #00a01d !important;
+}
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/

@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap';
 const Project = (props) => {
 
     const { _id, name, picture1, about, category, projectFinishDate } = props.project;
-    console.log(category)
+
 
     return (
         <>
