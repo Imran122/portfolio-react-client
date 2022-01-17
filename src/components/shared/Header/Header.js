@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../../images/banner-img.jpg'
+import img from '../../../images/s.jpg'
 import { Icon } from '@iconify/react';
 import './Header.css'
 import { Button } from 'react-bootstrap';

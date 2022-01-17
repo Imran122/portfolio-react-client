@@ -34,3 +34,11 @@
     display: inline-block;
   }
 }
+
+.portfolio-description h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.portfolio-description p {
+  text-align: justify;
+}

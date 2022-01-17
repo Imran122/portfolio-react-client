@@ -27,7 +27,7 @@ const ProjectDetails = () => {
                             <h2>Project Details</h2>
                             <ol>
                                 <li>
-                                    <Link to="/home"> <a href="#">Home</a></Link>
+                                    <Link to="/home"> Home</Link>
                                 </li>
                                 <li>Porject Details</li>
                             </ol>
@@ -86,16 +86,16 @@ const ProjectDetails = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="portfolio-description">
-                                    <h2>This is {project.name} details</h2>
-                                    <p>
-                                        {project.about}
-                                    </p>
-                                </div>
+
                             </div>
 
                         </div>
-
+                        <div class="portfolio-description">
+                            <h2>This is {project.name} details</h2>
+                            <p>
+                                {project.about}
+                            </p>
+                        </div>
                     </div>
                 </section>
 

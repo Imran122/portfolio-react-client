@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css'
 import FadeIn from 'react-fade-in';
-import img from '../../../images/profile-img.jpg'
+import img from '../../../images/s.jpg'
 const About = () => {
     return (
         <FadeIn>
@@ -21,7 +21,7 @@ const About = () => {
                             <img src={img} className="img-fluid" alt="" />
                         </div>
                         <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                            <h3>Full-Stack &amp; Web Developer.</h3>
+                            <h3>Full-Stack Web Developer.</h3>
                             <p className="fst-italic">
                                 My personal Information.
                             </p>
