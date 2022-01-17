@@ -23,9 +23,10 @@ const Banner = () => {
                             cursor={true}
                             sequence={[
                                 'Full-stack developer',
-                                2000,
-                                'Django developer',
-                                2000,
+                                3000,
+                                'React developer',
+                                3000,
+
                             ]}
                             wrapper="h2"
                             repeat={Infinity}

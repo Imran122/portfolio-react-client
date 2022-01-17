@@ -43,7 +43,7 @@ const About = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <p>
+                            {/*   <p>
                                 Looking forward to an entry-level position to kickstart my career. I am adaptable with a
                                 quick learner and a highly hardworking individual searching for a position to gain
                                 industrial exposure in this field. Being a quick learner, I wish to develop a more rounded
@@ -51,7 +51,7 @@ const About = () => {
                                 competitive environment with a perfect challenge by contributing the best for the growth
                                 of the organization while ensuring growth in a personal career will be a great opportunity
                                 for me.
-                            </p>
+                            </p> */}
                         </div>
                     </div>
 

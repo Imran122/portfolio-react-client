@@ -44,11 +44,11 @@ const Header = () => {
                         <img src={img} alt="" class="img-fluid rounded-circle" />
                         <h1 class="text-light"><a href="index.html">IMRAN HOSSAIN</a></h1>
                         <div class="social-links mt-3 text-center">
-                            <a href="#" class="twitter"><Icon icon="bx:bxl-twitter" /></a>
+
                             <a href="#" class="facebook"><Icon icon="bi:facebook" /></a>
-                            <a href="#" class="instagram"><Icon icon="akar-icons:instagram-fill" /></a>
-                            <a href="#" class="github"><Icon icon="akar-icons:github-fill" /></a>
-                            <a href="#" class="linkedin"><Icon icon="entypo-social:linkedin-with-circle" /></a>
+
+                            <a href="https://github.com/Imran122" class="github"><Icon icon="akar-icons:github-fill" /></a>
+                            <a href="https://www.linkedin.com/in/imran-hossain122/" class="linkedin"><Icon icon="entypo-social:linkedin-with-circle" /></a>
                         </div>
                     </div>
 
@@ -58,7 +58,7 @@ const Header = () => {
                             <li><a href="#about" class="nav-link scrollto"><Icon style={{ width: '40px' }} class="bx" icon="mdi:user" /> <span>About</span></a></li>
                             <li><a href="#resume" class="nav-link scrollto"> <Icon style={{ width: '40px' }} class="bx" icon="mdi:file" /> <span>Resume</span></a></li>
                             <li><a href="#portfolio" class="nav-link scrollto"><Icon style={{ width: '40px' }} icon="bx:bxs-book-content" /><span>Portfolio</span></a></li>
-                            <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+
                             <li><a href="#contact" class="nav-link scrollto"><Icon style={{ width: '40px' }} icon="fluent:chat-mail-20-filled" /><span>Contact</span></a></li>
                         </ul>
                     </nav>

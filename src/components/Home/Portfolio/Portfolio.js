@@ -8,15 +8,17 @@ import { Button } from 'react-bootstrap';
 import { useEffect } from 'react';
 const Portfolio = () => {
     const [projects, setProjects] = useProjects()
+
     const [items, setItems] = useState(projects)
 
     const filterDjango = (categoryItem) => {
+
         const updateItems = projects.filter((currentElement) => {
             return currentElement.category === categoryItem
         })
         setItems(updateItems)
     }
-    console.log('fgf', items)
+    console.log('items', items)
     console.log('projects', projects)
 
 
@@ -51,10 +53,18 @@ const Portfolio = () => {
                             </div>
                             <div class="container" >
                                 <div class="row">
-                                    {
+                                    {items === [] ?
 
 
 
+                                        projects.map(project => <Project
+                                            key={project._id}
+                                            project={project}
+                                        >
+
+                                        </Project>
+                                        )
+                                        :
                                         items.map(project => <Project
                                             key={project._id}
                                             project={project}
@@ -62,7 +72,6 @@ const Portfolio = () => {
 
                                         </Project>
                                         )
-
                                     }
 
 

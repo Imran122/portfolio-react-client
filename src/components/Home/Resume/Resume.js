@@ -58,19 +58,11 @@ const Resume = () => {
                             <div class="resume-item">
                                 <h4>Freelencher</h4>
                                 <h5>2019 - Present</h5>
-                                <p><em>Working onFiverr </em></p>
+                                <p><em>Working on Fiverr </em></p>
                                 <ul>
-                                    <li> Have done some project by Django framework which is uploaded in
-                                        my GitHub profile.</li>
-                                    <li> Have worked in a research base project on image processing that can
-                                        detect pest and the conference organized by teerthanker mahaveer
-                                        university. Paper has published in IEEE Explore and RESEARCH
-                                        GATE.
-                                        IEEE Explore: http://tiny.cc/v28ysz
-                                        ResearchGate: http://tiny.cc/a38ysz </li>
-                                    <li> Experience on responsive web design & development project.</li>
+
                                     <li> Experience on Node Js and React Js to build React component-based
-                                        website</li>
+                                        website.I have done 3 projects on fiverr which is uploaded on my gitHub profile.</li>
                                 </ul>
                             </div>
                             {/*     <div class="resume-item">
