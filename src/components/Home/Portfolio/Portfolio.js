@@ -8,11 +8,11 @@ import { Button } from 'react-bootstrap';
 import { useEffect } from 'react';
 const Portfolio = () => {
     const [projects, setProjects] = useProjects()
-
+    const [showResults, setShowResults] = useState(false)
     const [items, setItems] = useState(projects)
 
     const filterDjango = (categoryItem) => {
-
+        setShowResults(true)
         const updateItems = projects.filter((currentElement) => {
             return currentElement.category === categoryItem
         })
@@ -53,7 +53,7 @@ const Portfolio = () => {
                             </div>
                             <div class="container" >
                                 <div class="row">
-                                    {items === [] ?
+                                    {!showResults ?
 
 
 
