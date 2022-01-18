@@ -41,9 +41,9 @@ const Portfolio = () => {
                             <div class="row" data-aos="fade-up">
                                 <div class="col-lg-12 d-flex justify-content-center">
                                     <ul id="portfolio-flters">
-                                        <li data-filter=".filter-app" onClick={() => setItems(projects)} ><Button class="select-cat-btn">ALL</Button></li>
-                                        <li data-filter=".filter-app" onClick={() => filterDjango('django')} ><Button class="select-cat-btn">Django & React</Button></li>
-                                        <li data-filter=".filter-app" onClick={() => filterDjango('node')} ><Button class="select-cat-btn">Node & React</Button></li>
+                                        <li data-filter=".filter-app"  ><Button onClick={() => setItems(projects)} class="select-cat-btn">ALL</Button></li>
+                                        <li data-filter=".filter-app"  ><Button onClick={() => filterDjango('django')} class="select-cat-btn">Django & React</Button></li>
+                                        <li data-filter=".filter-app" ><Button onClick={() => filterDjango('node')} class="select-cat-btn">Node & React</Button></li>
 
 
 
